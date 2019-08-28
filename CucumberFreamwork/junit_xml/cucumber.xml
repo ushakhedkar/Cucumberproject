@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="15" time="102.244642">
+<testcase classname="sharekhan website test" name="LoginPage of ShareKhan" time="15.706322">
+<system-out><![CDATA[Given user opens browser....................................................passed
+Then user is on login page..................................................passed
+Then user validates sharekhan logo..........................................passed
+Then user enters username...................................................passed
+Then user clicks on next button.............................................passed
+Then user enters password...................................................passed
+Then user clicks on login button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website test" name="Homepage verification" time="8.293595">
+<system-out><![CDATA[When user is on new Homepage................................................passed
+Then user clicks on menu button.............................................passed
+Then user clicks on switch to old site button...............................passed
+Then user is on homepage....................................................passed
+Then user verifies the user profile.........................................passed
+Then user checks all panel headings of Home Tab.............................passed
+Then user checks all panel elements of Home Tab.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website test" name="ViewProfile Page Verification" time="5.304995">
+<system-out><![CDATA[When user clicks on viewprofile button......................................passed
+Then user is on viewprofile page............................................passed
+Then user verifies all headings of viewprofile page.........................passed
+Then user verifies all elements of viewprofile page.........................passed
+Then user verifies all fields of form.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website test" name="Account Page Verification" time="4.68982">
+<system-out><![CDATA[When user clicks on Account tab.............................................passed
+Then user is on Account Page................................................passed
+Then user checks all panel headings of Account Tab..........................passed
+Then user checks all panel elements of Account Tab..........................passed
+Then user verifies all fields of form of Fund Transfer......................passed
+Then user verifies submit button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website test" name="Profile Page Verification" time="1.57352">
+<system-out><![CDATA[When user clicks on Profile Tab.............................................passed
+Then user is on Profile Page................................................passed
+Then user verifies all headings of Profile tab..............................passed
+Then user verifies all elements of Profile tab..............................passed
+Then user verifies all fields of Trading Profile............................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website test" name="TradeNow Verification" time="10.296752">
+<system-out><![CDATA[When user clicks on TradeNow tab............................................passed
+Then user clicks on close button............................................passed
+Then user is on TradeNow Page...............................................passed
+Then user verifies all headings of TradeNow tab.............................passed
+Then user verifies all elements of TradeNow tab.............................passed
+Then user verifies all fields of New Order Form.............................passed
+Then user verifies placeOrder and reset button..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website test" name="Reports Page Verification" time="1.745319">
+<system-out><![CDATA[When user clicks on Reports Tab.............................................passed
+Then user is on Reports Page................................................passed
+Then user verifies all report links.........................................passed
+Then user verifies all headings of Report Page..............................passed
+Then user verifies all elements of Report Page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website test" name="Market Watch Page Verification" time="2.443773">
+<system-out><![CDATA[When user clicks on MarketWatch Tab.........................................passed
+Then user is on MarketWatch Page............................................passed
+Then user verifies top links................................................passed
+Then user verifies top picks  button........................................passed
+Then user verifies all orange button on the page............................passed
+Then user verifies all black button on the page.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website testing" name="Validating IPOBonds Page" time="1.804992">
+<system-out><![CDATA[When user clicks on IPO tab.................................................passed
+Then user is on IPOBonds Page...............................................passed
+Then user verifies top side links...........................................passed
+Then user verifies all main links...........................................passed
+Then user verifies all bottom links.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website testing" name="Validating Mutual Funds Page" time="1.194997">
+<system-out><![CDATA[When user clicks on Mutual Funds tab........................................passed
+Then user is on Mutual Funds page...........................................passed
+Then user verifies links of page............................................passed
+Then user veries elements of page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website testing" name="Validating Portfolio Page" time="9.098581">
+<system-out><![CDATA[When user clicks on Portfolio tab...........................................passed
+Then user is on Portfolio page..............................................passed
+Then user verifies my portfolio bar.........................................passed
+Then user verifies all black buttons........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website testing" name="Validating OptionChain Page" time="9.579753">
+<system-out><![CDATA[When user clicks on OptionChain tab.........................................passed
+Then user is on OptionChain page............................................passed
+Then user verifies option chain bar.........................................passed
+Then user verifies all black button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website testing" name="Validating News Page" time="11.402338">
+<system-out><![CDATA[When user click on News tab.................................................passed
+Then user is on news page...................................................passed
+Then user verifies all links of news page...................................passed
+Then user verifies all headings of news page................................passed
+Then user verifies all news headings........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website testing" name="Validating Research Page" time="9.305498">
+<system-out><![CDATA[When user click on Research tab.............................................passed
+Then user is on Research page...............................................passed
+Then user verifies all links of research page...............................passed
+Then user verifies all research headings....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="sharekhan website testing" name="Validating CS Page" time="9.804387">
+<system-out><![CDATA[When user click on CS tab...................................................passed
+Then user is on CS page.....................................................passed
+Then user verifies all label of CS page.....................................passed
+Then user verifies all content of CS page...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
