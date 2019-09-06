@@ -2,27 +2,26 @@ package com.qa.stepdefinition;
 
 import org.junit.Assert;
 
+import com.qa.pages.FirstPage;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 import com.qa.util.TestBase;
 
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 public class LoginPageSteps extends TestBase{
 	
+	FirstPage fpage;
 	LoginPage login;
 	HomePage hmpage;
 	
-	@Given("^user opens browser$")
-	public void user_opens_browser()
-	{
-		TestBase.init();
-	}
-	@Then("^user is on login page$")
+	
+	@When("^user is on login page$")
 	public void user_is_on_login_page() throws Throwable {
 	 
-		login = new LoginPage();
+		fpage=new FirstPage();
+		login = fpage.switchToLoginPage();
 		String expected="Sharekhan Online Trading Account Login";
 		String actual=login.validateTitle();
 		Assert.assertEquals(expected, actual);

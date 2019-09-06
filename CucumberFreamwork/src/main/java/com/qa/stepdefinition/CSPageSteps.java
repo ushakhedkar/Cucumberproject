@@ -2,6 +2,7 @@ package com.qa.stepdefinition;
 
 import com.qa.pages.CSPage;
 import com.qa.pages.HomePage;
+import com.qa.util.TestBase;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -31,6 +32,5 @@ public class CSPageSteps {
 	public void user_verifies_all_content_of_CS_page() throws Throwable {
 	   cs.getAllContent();
 	}
-
 
 }

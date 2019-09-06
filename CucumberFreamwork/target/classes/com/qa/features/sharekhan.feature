@@ -47,3 +47,7 @@ When user click on CS tab
 Then user is on CS page
 Then user verifies all label of CS page
 Then user verifies all content of CS page
+
+Scenario: Loging out from website
+Then user clicks on logout button
+Then user close the browser

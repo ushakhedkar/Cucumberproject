@@ -1,9 +1,14 @@
 Feature: sharekhan website test
 
+Scenario: First Page of ShareKhan Site
+Given user opens browser
+Then user is on firstpage
+Then user validates logo
+
+
 Scenario: LoginPage of ShareKhan
 
-Given user opens browser
-Then user is on login page
+When user is on login page
 Then user validates sharekhan logo
 Then user enters username
 Then user clicks on next button

@@ -23,6 +23,7 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//a[@class='ng-scope']//img")
 	WebElement logo;
 	
+	
 	@FindBy(xpath="//a[@class='hamburgerMenuIcon']")
 	WebElement menu;
 	
@@ -92,7 +93,14 @@ public class HomePage extends TestBase{
 	{
 		return userpro.getText();
 	}
+	@FindBy(xpath="//a[contains(text(),'Logout')]")
+	WebElement logout;
 	
+	public LogOutPage clickOnLogout()
+	{
+		logout.click();
+		return new LogOutPage();
+	}
 	public AccountPage clickOnAccounts()
 	{
 		Assert.assertTrue("Account Tab is Enabled", Account.isEnabled());
@@ -220,4 +228,6 @@ public class HomePage extends TestBase{
 		OptionChain.click();
 		return new OptionChainPage();
 	}
+	
+	
 }

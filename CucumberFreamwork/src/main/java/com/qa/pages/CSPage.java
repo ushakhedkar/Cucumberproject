@@ -25,6 +25,9 @@ public class CSPage extends TestBase {
 	@FindBy(xpath=	"//div[@class='help-label']")
 	WebElement title;
 	
+	@FindBy(xpath="//a[contains(text(),'Logout')]")
+	WebElement logout;
+	
 	public void validateTitle()
 	{
 		try{
@@ -59,5 +62,10 @@ public class CSPage extends TestBase {
 			{
 				collector.addError(e);
 			}
+	}
+	public void logout() throws InterruptedException
+	{
+		Thread.sleep(8000);
+		logout.click();
 	}
 }
